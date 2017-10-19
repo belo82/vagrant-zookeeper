@@ -1,0 +1,7 @@
+
+# set PATH so it includes user's private bin directories
+PATH="$HOME/bin:$HOME/.local/bin:$PATH"
+
+# set ZOOKEEPER_HOME and include zookeeper's bin directories in the PATH
+ZOOKEEPER_HOME="/usr/local/zookeeper-3.4.10"
+PATH="$PATH:$ZOOKEEPER_HOME/bin"
